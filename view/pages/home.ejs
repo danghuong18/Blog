@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../components/head'); %>
+</head>
+<body class="container">
+
+<header>
+  <%- include('../components/header'); %>
+</header>
+
+<main>
+  <div class="jumbotron">
+    <h1><%= tagline %></h1>
+    <p>Welcome to templating using EJS</p>
+    <p><% mascots.forEach((mascot)=>{ %>
+      <strong><%= mascot.name %></strong>
+    <%});%></p>
+  </div>
+</main>
+
+<footer>
+  <%- include('../components/footer'); %>
+</footer>
+
+</body>
+</html>

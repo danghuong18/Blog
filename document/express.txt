@@ -1,0 +1,11 @@
+cài đặt express
+npm init
+npm install express
+tạo app > tạo cổng > 
+
+Set-ExecutionPolicy Unrestricted        để chạy nếu cài nodemon không chạy được
+
+query                                   request gửi định dạng ?key=value
+                                        có thể dùng hoặc không
+params                                  request được gửi kèm trên url
+                                        buộc phải dùng

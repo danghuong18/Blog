@@ -1,0 +1,8 @@
+
+
+body-parser
+    đọc data được gửi thông qua req.body
+res.json
+    status
+    message
+    data/err

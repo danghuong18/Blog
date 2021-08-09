@@ -1,0 +1,22 @@
+router
+
+postman
+
+restFulAPI
+các API phân biệt với nhau bởi phương thức (method) và đường dẫn (url)
+url                 làm việc với model cái nào thì quy định trên url cụ thể
+get                 Lấy data từ database
+                    Lấy giao diện
+                    data gửi từ server về sẽ được cho thẳng lên giao diện
+post                Thêm mới data vào database
+                    
+                    làm thêm một số chức năng khác
+
+put                 /user/:id
+                    update data ~ updateOne or update trong Mongoosedb
+
+delete              /user/:id
+                    xoá data
+                    gửi ngầm data ko cho lên giao diện
+
+middleWare

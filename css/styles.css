@@ -1,0 +1,245 @@
+.main-body{
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #071e23;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #071e23;
+    color: #fff;
+}
+
+.web-name{
+    color: #fff;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #1d7873;
+}
+
+ol {
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+table {
+    margin: 0 auto;
+}
+
+a:hover{
+    color: #59b8b3;
+}
+
+.successful {
+    border: 1px solid rgb(12, 138, 12);
+    background-color: rgba(12 38 12 / 50%);
+}
+
+.warning {
+    border: 1px solid rgb(138, 73, 12);
+    background-color: rgba(138 73 12 / 50%);
+}
+
+.fail {
+    border: 1px solid rgb(138, 12, 12);
+    background-color: rgba(138 12 12 / 50%);
+}
+
+.successful, .warning, .fail {
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.submit {
+    background-color: #1d7873;
+    border: none;
+    padding: 2px 4px;
+    color: #fff;
+}
+
+.submit:hover {
+    background-color: #2ab3ac;
+}
+
+#main-panel div {
+    border: 1px solid #ee2e31;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 5px 0;
+    background-color: rgb(238 46 49 / 50%);
+    color: #fff;
+}
+
+#main-panel div:hover {
+    opacity: 0.75;
+    border-color: rgb(12, 138, 12);
+    background-color: rgb(12 138 12 / 50%);
+}
+
+.user-item, .post-item {
+    border: 1px solid #689289;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 5px 0;
+    background-color: rgb(104 146 137 / 50%);
+    color: #fff;
+    position: relative;
+}
+
+.delete-user {
+    position: absolute;
+    top: 0;
+    right: 6px;
+    cursor: pointer;
+    color: #ee2e31;
+}
+
+span.page {
+    border: 1px solid rgb(236,234,234);
+    background-color: rgb(236 234 234 / 50%);
+    border-radius: 3px;
+    padding: 3px 5px;
+    margin: 0 5px 0 0;
+    cursor: pointer;
+}
+
+span.page:hover {
+    border-color: rgb(12, 138, 12);
+    background-color: rgba(12 38 12 / 50%);
+}
+
+span.page.active {
+    border-color: rgb(12, 138, 12) !important;
+    background-color: rgb(12, 138, 12) !important;
+    cursor:unset;
+}
+
+#limit-list {
+    border: 1px solid rgb(236,234,234);
+    height: 26px;
+}
+
+.header-container {
+    position: relative;
+    height: 50px;
+}
+
+.header-container .header-name {
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    text-shadow: 1px 1px #636161;
+    top: 0;
+    border-radius: 7px;
+    padding: 2px 15px;
+    background-image: linear-gradient(162deg, #f9e909, #369204);
+    cursor: pointer;
+}
+
+.header-container .header-left {
+    position: absolute;
+    top: 5px;
+    right: -15px;
+}
+
+.header-container .header-left span {
+    border: 1px solid teal;
+    background-color: teal;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0px 2px;
+    cursor: pointer;
+}
+
+.header-container .header-left a {
+    color: #fff;
+}
+
+.post-container .post-title {
+    border-bottom: 2px solid #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 0 0 10px 0;
+}
+
+.post-container .post-author span.author {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.post-container .post-content{
+    border: 2px dotted;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.post-item .post-cp-title a {
+    color: #fff;
+}
+
+.post-item .post-cp-title {
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.post-item .post-cp-author {
+    font-style: italic;
+}
+
+.post-item .post-task {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.post-item .post-task span {
+    border: 1px solid;
+    background-color:#fff;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0px 2px;
+    cursor: pointer;
+}
+
+.post-item .post-task a {
+    color:#fff;
+}
+
+.post-item .post-task span.edit-post {
+    border-color: rgb(12, 138, 12);
+    background-color: rgb(12, 138, 12);
+}
+
+.post-item .post-task span.delete-post {
+    border-color: #ee2e31;
+    background-color: #ee2e31;
+}
+
+.editing{
+    border: 2px dotted;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.editing .edit-title{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.tips{
+    border: 2px dotted #f5c096;
+    background-color: rgb(245 192 150 / 50%);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-style: italic;
+}
