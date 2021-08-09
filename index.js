@@ -13,7 +13,7 @@ app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 app.use(cookieParser());
 
-app.use("/", express.static(path.join(__dirname, "../EXPRESS")))
+app.use("/", express.static(path.join(__dirname, "./")))
 app.use("/user", UserRouter);
 app.use("/post", PostRouter);
 
