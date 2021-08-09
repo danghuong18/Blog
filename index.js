@@ -105,4 +105,4 @@ app.get("/view-post", (req, res)=>{
     res.sendFile(path.join(__dirname, "./view/view-post.html"));
 });
 
-app.listen(333 || process.env.PORT);
+app.listen(process.env.PORT || 333);
