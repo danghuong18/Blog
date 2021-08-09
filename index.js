@@ -7,6 +7,7 @@ const UserRouter = require("./router/userRouter");
 const PostRouter = require("./router/postRouter");
 const cookieParser = require("cookie-parser");
 const checkLogin = require("./checkLogin");
+require('dotenv').config();
 
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
